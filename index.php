@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculate</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<link rel="stylesheet" href="css\style.css">
+</head>
+<body class="bgcolor">
+  <nav class="navbar navbar-expand-lg bg-success navbar-light">
+      <ul class="navbar-nav">
+        
+        <li class="nav-item">
+          <a class="nav-link" href="index.php">Addition</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sub.html">Subtraction</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mul.html">Multiplication</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="div.html">Division</a>
+        </li>
+      </ul>
+    </nav>
+  <div class="container">
+      <div class="row">
+          <div class="col">
+<table class="table">
+<tbody><tr>
+  <td>Enter first number:</td>
+  <td><input type="text" class="form-control" id="num1"></td>
+</tr>
+<tr>
+  <td>Enter second number:</td>
+  <td><input type="text" class="form-control" id="num2"></td>
+</tr>
+<tr>
+  <td></td>
+  <td><button onclick="add()" class="btn btn-success">Submit</button></td>
+</tr>
+<tr class="backcolor">
+  <td>Answer is:</td>
+  <td><p id="res"></p></td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</div>
+<script src="js\myscript.js">
+
+</script>
+
+</body></html>

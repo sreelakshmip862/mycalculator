@@ -1,0 +1,15 @@
+.bgcolor
+{
+    background:beige;
+    
+}
+.textstyle
+{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(178, 218, 241);
+}
+.backcolor
+{
+  background-color:lightblue;
+}
